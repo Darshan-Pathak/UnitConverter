@@ -1,0 +1,89 @@
+/* Set the font size and family */
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #25274D;
+  }
+  
+  /* Set the height of the container to 100vh to make it full screen */
+  #converter {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Center the container horizontally */
+  .container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Style the input and select fields */
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Style the output field */
+  #output {
+    background-color: #E9E9E9;
+    color: #333;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the output values */
+  #output span {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  /* Style the convert button */
+  #convert {
+    padding: 10px 20px;
+    background-color: #7B2C84;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.4);
+  }
+  
+  /* Change the background color of the button on hover */
+  #convert:hover {
+    background-color: #5E1A6A;
+  }
+  
+  /* Style the header */
+  h1 {
+    font-size: 32px;
+    margin-top: 0;
+    color: #5E1A6A;
+    text-shadow: 1px 1px #3D3D3D;
+  }
+  
+  /* Style the label */
+  label {
+    font-size: 20px;
+    color: #5E1A6A;
+    text-shadow: 1px 1px #3D3D3D;
+  }
+  
